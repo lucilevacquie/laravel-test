@@ -8,7 +8,7 @@
     <title>Post</title>
 </head>
 <body class="bg-gray-200">
-    <nav class="p-6 bg-white flex justify-between">
+    <nav class="p-6 bg-white flex justify-between mb-6">
         <ul class="flex items-center">
             <li class="p-3">
                 <a href="">Home</a>
@@ -25,7 +25,7 @@
                 <a href="">Login</a>
             </li>
             <li class="p-3">
-                <a href="">Register</a>
+                <a href="{{route('register')}}">Register</a>
             </li>
             <li class="p-3">
                 <a href="">Logout</a>
